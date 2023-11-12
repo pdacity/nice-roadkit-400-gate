@@ -103,9 +103,6 @@ switch:
 
 ## Home Assistant
 
-* docker-stack.yml - для деплоя сервиса в  Docker swarm
-* docker-compose.yml - для запуска Docker Service
-
 
 --- 
 
