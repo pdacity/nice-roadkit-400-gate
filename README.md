@@ -18,7 +18,22 @@
 ### Pinouts
 
 #### Пульт
+
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/transmitter_01.jpg)
+
+распиновка:
+
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/transmitter_pinout_01.jpg)
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/transmitter_pinout_02.jpg)
+
 #### Реле
+
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/relay.jpg)
+
+распиновка:
+
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout_1.jpg)
+
 
 ### Прошивка
 
