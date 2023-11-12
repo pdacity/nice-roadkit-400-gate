@@ -118,7 +118,7 @@ switch:
 ## Home Assistant
 
 После подключения реле с пультом в Settings - Devices & Servicess - ESPHome появится новое устройство
-![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_00.jpg)
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_00.png)
 
 добавляем в дашбоард 
 
