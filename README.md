@@ -141,5 +141,7 @@ switch:
 
 References:
 TASMOTA esp8265 - https://templates.blakadder.com/LC-EWL-B04-MB.html
+
 PSF-B04 Application Guide - https://itead.cc/diy-kits-guides/psf-b04-application-guide/
+
 Tasmota 4 channel relay - https://community.home-assistant.io/t/hacking-the-psf-b04-esp8285-4-channel-relay-board-and-with-tasmota-and-unable-to-drive-all-4-relays-concurrently/155919
