@@ -156,3 +156,5 @@ Tasmota 4 channel relay - https://community.home-assistant.io/t/hacking-the-psf-
 Nice RoadKit 400 documentation (RUS) - https://www.bramy.ru/assets/files/documents/otkatnye-vorota/nice/instrukciya-po-montazhu-i-nastrojke-privoda-nice-rd400.pdf
 
 Список рэле с сухим контактом - https://ivan.bessarabov.ru/blog/relay-with-dry-contacts
+
+Еще рэле с сухим контактом - https://sonoff.ru/catalog/wifi-rele/rele-s-sukhim-kontaktom
