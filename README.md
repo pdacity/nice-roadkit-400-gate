@@ -44,7 +44,7 @@ RX - 21
 
 TX - 20
 
-![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout.jpg)
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout.png)
 
 ### Прошивка
 Чтобы перевести плату рэле в режим прошивки нужно зажать кнопку GPIO0, не отпуская ее подключить питание через microUSB, затем отпускаем кнопку GPIO0 и подключаем uart адаптер к usb.
