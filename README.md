@@ -34,10 +34,17 @@
 
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/relay.jpg)
 
-В выбранном мной реле используется контроллер esp8265 - необходимо подключить контакты с сингнальной землей, TX и RX 
+В выбранном мной реле используется контроллер esp8265 - необходимо подключить контакты с сингнальной землей GND, TX и RX 
 
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout_1.jpg)
 
+GND - 20
+
+RX - 21
+
+TX - 20
+
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout.jpg)
 
 ### Прошивка
 Чтобы перевести плату рэле в режим прошивки нужно зажать кнопку GPIO0, не отпуская ее подключить питание через microUSB, затем отпускаем кнопку GPIO0 и подключаем uart адаптер к usb.
