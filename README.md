@@ -1,4 +1,4 @@
-# Интеграция RoadKit 400 в Home Assistant
+# Интеграция откатных ворот RoadKit 400 в Home Assistant
 
 ![PizzaWare](https://img.shields.io/badge/%F0%9F%8D%95-PizzaWare-orange)
 ![Tea powered](https://img.shields.io/badge/%F0%9F%8D%B5-tea%20powered-yellowgreen)
