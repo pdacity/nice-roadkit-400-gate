@@ -15,8 +15,6 @@
 - 2-х канальное реле с сухими контактами
 - USB2TTL адаптер для первоначальной прошивки.
 
-### Pinouts
-
 #### Пульт
 
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/transmitter_01.jpg)
@@ -36,6 +34,7 @@
 
 
 ### Прошивка
+Чтобы перевести плату рэле в режим прошивки нужно зажать кнопку GPIO0, не отпуская ее подключить питание через microUSB, затем отпускаем кнопку GPIO0 и подключаем uart адаптер к usb.
 
 
 ## Код для ESPHOME
@@ -118,6 +117,13 @@ switch:
 
 ## Home Assistant
 
+После подключения реле с пультом в Settings - Devices & Servicess - ESPHome появится новое устройство
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_00.jpg)
+
+добавляем в дашбоард 
+
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_01.jpg)
+![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_02.jpg)
 
 --- 
 
