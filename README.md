@@ -1,11 +1,11 @@
-# Интеграция откатных ворот RoadKit 400 в Home Assistant
+# Интеграция ворот RoadKit 400 в Home Assistant
 
 ![PizzaWare](https://img.shields.io/badge/%F0%9F%8D%95-PizzaWare-orange)
 ![Tea powered](https://img.shields.io/badge/%F0%9F%8D%B5-tea%20powered-yellowgreen)
 
 ## О проекте 
 
-Практически универсальный способ интеграции автоматических ворот, как распашных, так и откатных которые могут отурываться с пульта в Home Assistant
+Практически универсальный способ интеграции автоматических ворот которые могут отррываться с пульта в Home Assistant
 
 Способ годится и для люубого другого оборудования с радио пультами
 
