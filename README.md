@@ -35,11 +35,11 @@
 
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout_1.jpg)
 
-GND - 20
-
-RX - 21
-
-TX - 20
+| Signal | PIN |
+|--------|--------|
+| GND | 20 |
+| RX | 21 |
+| TX | 20 |
 
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout.png)
 
@@ -49,91 +49,16 @@ TX - 20
 
 ## Код для ESPHOME
 
-После добавления реле в ESPHome и генерации токена, задания креденшиалс для точки доступа и т.д. к дефолтовому блоку кода с подключением к WiFi, токеном и прочим добавьте:
-
-```yaml
-###[ Nice RoadKit 400 ]###
-
-status_led:
- pin: 13
-
-binary_sensor:
-
-# Кнопка 1
-  - platform: gpio
-    pin:
-      number: 9
-      mode: INPUT_PULLUP
-      inverted: true
-    name: "button1"
-    id: button1
-
-# Нажатие кнопки1 переключает реле1
-    on_click:
-      min_length: 50ms
-      max_length: 500ms
-      then:
-        - switch.turn_on: relay1
-        - delay: 500ms
-        - switch.turn_off: relay1
-        - delay: 500ms
-        - switch.turn_off: relay1
-
-# Кнопка 2
-  - platform: gpio
-    pin:
-      number: 0
-      mode: INPUT_PULLUP
-      inverted: true
-    name: "button2"
-    id: button2
-
-# Нажатие кнопки2 переключает реле2
-    on_click:
-      min_length: 50ms
-      max_length: 350ms
-      then:
-        - switch.turn_on: relay2
-        - delay: 500ms
-        - switch.turn_off: relay2
-        - delay: 500ms
-        - switch.turn_off: relay2
-
-switch:
-# Реле 1
-  - platform: gpio
-    name: "relay1"
-    pin: GPIO12
-    id: relay1
-    icon: "mdi:gate"
-    # запрет на одновременное переключение
-    interlock: [relay2]
-    on_turn_on:
-    - delay: 500ms
-    - switch.turn_off: relay1
-
-# Реле 2
-  - platform: gpio
-    name: "relay2"
-    pin: GPIO5
-    id: relay2
-    icon: "mdi:gate-open"
-    # запрет на одновременное переключение
-    interlock: [relay1]
-    on_turn_on:
-    - delay: 500ms
-    - switch.turn_off: relay2
-```
 В коде добавлен запрет на одновременное срабатывание 2 реле, дабы избежать неопределенного состояния контроллера ворот.
 
-Пульт срабатывает как и при нажатии кнопок на рэле, так и по командам из  HomeAssistant.
+Пульт срабатывает как и при нажатии кнопок на рэле, так и по командам из  HomeAssistant. Отображается статус ручного нажатия на кнопки рэле.
 
 ## Home Assistant
 
 После подключения реле с пультом в Settings - Devices & Servicess - ESPHome появится новое устройство
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_00.png)
 
-добавляем в дашбоард 
+добавляем в Dashboard 
 
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_01.jpg)
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_02.jpg)
