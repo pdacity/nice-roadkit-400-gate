@@ -63,8 +63,8 @@
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_01.jpg)
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_02.jpg)
 
-## ToDo
-- [ ] добавить индикацию светодиодом при нажатии срабатывании реле.
+## Original eWeLink Firmware backup
+В каталоге firmware - бакап оригинальной прошивки рэле от  eWeLink и скрипты для бакапа и восстановления. 
 
 --- 
 
