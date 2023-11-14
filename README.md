@@ -39,7 +39,7 @@
 |--------|--------|
 | GND | 20 |
 | RX | 21 |
-| TX | 20 |
+| TX | 22 |
 
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout.png)
 
