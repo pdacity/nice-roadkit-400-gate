@@ -44,14 +44,14 @@
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/esp8265_pinout.png)
 
 ### Прошивка
-Чтобы перевести плату рэле в режим прошивки нужно зажать кнопку GPIO0, не отпуская ее подключить питание через microUSB, затем отпускаем кнопку GPIO0 и подключаем uart адаптер к usb.
+Чтобы перевести плату реле в режим прошивки нужно зажать кнопку GPIO0, не отпуская ее подключить питание через microUSB, затем отпускаем кнопку GPIO0 и подключаем uart адаптер к usb.
 
 
 ## Код для ESPHOME
 
 В коде добавлен запрет на одновременное срабатывание 2 реле, дабы избежать неопределенного состояния контроллера ворот.
 
-Пульт срабатывает как и при нажатии кнопок на рэле, так и по командам из  HomeAssistant. Отображается статус ручного нажатия на кнопки рэле.
+Пульт срабатывает как и при нажатии кнопок на реле, так и по командам из  HomeAssistant. Отображается статус ручного нажатия на кнопки реле.
 
 ## Home Assistant
 
@@ -64,7 +64,7 @@
 ![](https://github.com/pdacity/nice-roadkit-400-gate/blob/main/images/ha_02.jpg)
 
 ## Original eWeLink Firmware backup
-В каталоге firmware - бакап оригинальной прошивки рэле от  eWeLink и скрипты для бакапа и восстановления. 
+В каталоге firmware - бакап оригинальной прошивки реле от  eWeLink и скрипты для бакапа и восстановления. 
 
 --- 
 
@@ -77,6 +77,6 @@ Tasmota 4 channel relay - https://community.home-assistant.io/t/hacking-the-psf-
 
 Nice RoadKit 400 documentation (RUS) - https://www.bramy.ru/assets/files/documents/otkatnye-vorota/nice/instrukciya-po-montazhu-i-nastrojke-privoda-nice-rd400.pdf
 
-Список рэле с сухим контактом - https://ivan.bessarabov.ru/blog/relay-with-dry-contacts
+Список реле с сухим контактом - https://ivan.bessarabov.ru/blog/relay-with-dry-contacts
 
-Еще рэле с сухим контактом - https://sonoff.ru/catalog/wifi-rele/rele-s-sukhim-kontaktom
+Еще реле с сухим контактом - https://sonoff.ru/catalog/wifi-rele/rele-s-sukhim-kontaktom
