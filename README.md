@@ -66,6 +66,13 @@
 ## Original eWeLink Firmware backup
 В каталоге firmware - бакап оригинальной прошивки реле от  eWeLink и скрипты для бакапа и восстановления. 
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=pdacity/nice-roadkit-400-gate&type=Timeline)](https://star-history.com/#pdacity/nice-roadkit-400-gate&Timeline)
+
+
+
 --- 
 
 ## References:
@@ -79,4 +86,3 @@ Nice RoadKit 400 documentation (RUS) - https://www.bramy.ru/assets/files/documen
 
 Список реле с сухим контактом - https://ivan.bessarabov.ru/blog/relay-with-dry-contacts
 
-Еще реле с сухим контактом - https://sonoff.ru/catalog/wifi-rele/rele-s-sukhim-kontaktom
